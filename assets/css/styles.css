@@ -15,7 +15,9 @@ body{
 a{
     text-decoration: none;
 }
-
+html, body{
+    scroll-behavior: smooth;
+}
 .content{
     width: 1110px;
     max-width: calc(100% - 48px);
